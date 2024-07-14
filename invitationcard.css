@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.selection{
+    border-radius: 8px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    align-items: center;
+    text-align: center;
+}
+
+.wedding{
+    background-color:#e0f2f1;
+    background-image: url("l1.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius:12px;
+    opacity: 0.8;
+}
+.weds{
+    margin-top:100px;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color:color-mix(in srgb, blue 70%, red 30%);
+}
+.p1{
+    margin-top:40px;
+    color:#5A3E36;
+    font-style: italic;
+    font-size:x-large;
+}
+.p2{
+    margin-top:30px;
+    color:blue;
+    font-style: oblique;
+    font-size: x-large;
+}
+.rspv{
+    margin-top:20px;
+    color:#000080;
+    font-size: larger;
+}
+.btn{
+    margin-top:30px;
+    color:blue;
+    padding: 10px;
+    font-style: italic;
+    font-size: x-large;
+    border-radius: 8px;
+}
+.birthday{
+    background-color:#e0f2f1;
+    background-image: url("b1.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius:12px;
+    opacity: 0.8;
+}
+.b1{
+    margin-top:160px;
+    font-size: larger;
+    color: #000080;
+    font-family: cursive;
+}
+.dashed{
+    border:2px dashed black;
+    width:400px;
+    margin:20px auto;
+    color: #000080;
+}
+.b2,.b3{
+    margin-top:30px;
+    color:#5A3E36;
+}
+.sbtn{
+    color:#5A3E36;
+    padding:10px;
+    border-radius:8px;
+}
